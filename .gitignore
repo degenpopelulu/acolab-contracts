@@ -1,0 +1,27 @@
+# Deny by default. Publish only the reviewed source allowlist.
+/*
+!/.gitattributes
+!/.gitignore
+!/LICENSE
+!/README.md
+!/hardhat.config.js
+!/package-lock.json
+!/package.json
+!/contracts/
+/contracts/*
+!/contracts/DevPass.sol
+!/contracts/Dividend.sol
+!/contracts/KeeperRewardAccount.sol
+!/contracts/Launchpad.sol
+!/contracts/LaunchToken.sol
+!/contracts/NameRegistry.sol
+!/contracts/TaxProcessor.sol
+!/contracts/interfaces/
+/contracts/interfaces/*
+!/contracts/interfaces/IInternal.sol
+!/contracts/interfaces/IPancake.sol
+!/contracts/libraries/
+/contracts/libraries/*
+!/contracts/libraries/SymbolFold.sol
+!/contracts/libraries/SymbolLib.sol
+!/contracts/libraries/SymbolRules.sol

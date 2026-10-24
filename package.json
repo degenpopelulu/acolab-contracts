@@ -1,0 +1,19 @@
+{
+  "name": "acolab-contracts",
+  "version": "5.0.0",
+  "private": true,
+  "description": "Production Solidity contracts for Acolab (Agent Collective Onboarding)",
+  "license": "MIT",
+  "scripts": {
+    "compile": "hardhat compile"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "5.6.1"
+  },
+  "devDependencies": {
+    "hardhat": "2.29.1"
+  },
+  "engines": {
+    "node": ">=24"
+  }
+}
