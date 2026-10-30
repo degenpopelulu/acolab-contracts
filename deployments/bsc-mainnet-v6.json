@@ -1,0 +1,45 @@
+{
+  "chainId": 56,
+  "generation": "V6",
+  "website": "https://acolab.xyz",
+  "platform": "0x700C8666b7925273DB13Ed1D73FAc1cdF6fDf4D3",
+  "nameRegistry": "0x36f0b61D7c3523dc48309441532557520a91AD14",
+  "devPass": "0x35ae8Bb16d50D7F036E26503436B5Ce75c42c3D7",
+  "implementations": {
+    "AToken": "0x056d044b8C6091D79FE019EdD3c7C8DbE694d620",
+    "AAuction": "0x4480503805f4615A51B1D6f0775e9B8CE144424d",
+    "AOpening": "0xDBbae78f69733b13137fdcbA613d967233E3CE77",
+    "ALPLocker": "0x6529D02B74ABbD3a5b8d3477c5983e997d85f704",
+    "ADividend": "0xce72531F3e1E113725AC1aDf57e5BB6D950Ba78C",
+    "AStaking": "0x72A89c4917b05dca1ee561565Ed879df5cE57dBd",
+    "ARelease": "0x06C8E98FcDEf9f0442d55b4159Fa00aC9A43b2c2",
+    "AOracle": "0xd0C76dFE6184931D58dE09D1a913a46150a2CB39"
+  },
+  "market": {
+    "version": 2,
+    "address": "0x5D0E5e1E06852Eb1a7fC4391CD7Dee6Fe77D6C0B",
+    "source": "contracts/v6/AMarketV2.sol"
+  },
+  "previousMarkets": [
+    {
+      "version": 1,
+      "address": "0xA23bF69243E12528369ed63f2a4E6Afa38Ac4983",
+      "source": "contracts/v6/AMarket.sol"
+    }
+  ],
+  "assets": [
+    {
+      "symbol": "ACO",
+      "name": "Agent Collective Onboarding",
+      "token": "0x460AE0A8030e614210c4D4b6F02C44FB1B932ac0",
+      "auction": "0x1EE9B86F476b1b3a47Bb36a56fD0Fc2b93ea88Ba",
+      "opening": "0x3a6C0f1fD9b19B0743a36b952806DEF61fc133D4",
+      "locker": "0x7A079053c178D541a5D1774ffA07332C03Aa22F8",
+      "dividend": "0x1C21EBf910e3F7CcA27Bd8bB1B4CD76b64736102",
+      "staking": "0xe2f36c722ba8D0A33B1CeE0ba5128483964EC986",
+      "release": "0x77c24725f5c3210128E1dD377079FacF67194955",
+      "oracle": "0xeDB39D980001EDf502d96476F69dF5e1ec0e7A42"
+    }
+  ],
+  "cloneStandard": "ERC-1167 minimal proxy; per-asset modules delegate to the listed implementations."
+}
